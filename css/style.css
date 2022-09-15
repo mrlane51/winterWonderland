@@ -3,19 +3,9 @@ body {
     padding: 0;
 }
 
-/* h1,
-h2 {
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    z-index: 3;
-    color: red;
-} */
-
 h1 {
     position: absolute;
-    top: 40%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: red;
@@ -23,18 +13,31 @@ h1 {
 
 h2 {
     position: absolute;
-    top: 42%;
+    top: 30%;
     left: 50%;
     bottom: 60%;
     transform: translate(-50%, -50%);
     color: red;
 }
 
+h3 {
+    color: red;
+    font-weight: 100rem;
+}
+
 img {
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 30rem;
     z-index: -1;
+}
+
+.w3-card-4 {
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30rem;
 }
