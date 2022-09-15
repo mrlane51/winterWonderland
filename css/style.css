@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+}
+
+h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    bottom: 60%;
+    transform: translate(-50%, -50%);
+    color: red;
+}
+
+h3 {
+    color: red;
+    font-weight: 100rem;
+}
+
+img {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30rem;
+    z-index: -1;
+}
+
+.w3-card-4 {
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30rem;
+}
